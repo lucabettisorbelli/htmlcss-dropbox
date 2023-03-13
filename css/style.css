@@ -41,14 +41,6 @@
     color: white;
 }
 
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
-
 .containerTop {
     height: 735px;
 }
@@ -66,4 +58,10 @@
 
 .squareBottomRigth {
     width: 60%;
+}
+
+.squareBottomLeft {
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: space-around;
 }
