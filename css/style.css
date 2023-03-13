@@ -115,3 +115,23 @@ header {
 .info h4 {
     padding-bottom: 7px;
 }
+
+.extraTeam {
+    margin-top: 40px;
+    border: 1px solid grey;
+}
+
+.teamRight {
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.teamLeft * {
+    padding-bottom: 25px;
+}
+
+.teamLeft {
+    width: 70%;
+    padding: 30px;
+}
