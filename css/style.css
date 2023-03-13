@@ -4,20 +4,18 @@
     padding: 0;
 }
 
-body {
-    width: 100%;
-}
-
 .containerHeader {
     height: 80px;
     background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
 }
 
 .boxedLarge {
     max-width: 1180px;
     margin: 0 auto;
     background-color: bisque;
-    min-height: 730px;
 }
 
 .boxedShort {
@@ -25,4 +23,47 @@ body {
     margin: 0 auto;
     background-color: blue;
     min-height: 4800px;
+}
+
+.flex {
+    display: flex;
+}
+
+.containerHeader a {
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+}
+
+#button {
+    padding: 10px;
+    background-color: rgb(85, 85, 165);
+    color: white;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.containerTop {
+    height: 735px;
+}
+
+.squareTitle {
+    font-size: 3em;
+    height: 45%;
+    padding-top: 50px;
+}
+
+.squareBottomRigth img {
+    width: 780px;
+    height: 440px;
+}
+
+.squareBottomRigth {
+    width: 60%;
 }
