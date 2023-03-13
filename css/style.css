@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.containerHeader {
+    height: 80px;
+    background-color: aqua;
+}
+
+.boxedLarge {
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: bisque;
+    min-height: 730px;
+}
+
+.boxedShort {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: blue;
+    min-height: 4800px;
+}
