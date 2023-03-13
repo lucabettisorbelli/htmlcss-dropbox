@@ -13,7 +13,7 @@ header {
 }
 .containerHeader {
     height: 80px;
-    background-color: aqua;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
@@ -22,7 +22,7 @@ header {
 .boxedLarge {
     max-width: 1180px;
     margin: 0 auto;
-    background-color: bisque;
+    
 }
 
 .boxedShort {
@@ -34,6 +34,10 @@ header {
 
 .flex {
     display: flex;
+}
+
+#bg {
+    background-color: #b4d0e7;
 }
 
 .containerHeader a {
@@ -134,4 +138,27 @@ header {
 .teamLeft {
     width: 70%;
     padding: 30px;
+}
+
+.boxImg {
+    height: 520px;
+    width: 60%;
+}
+
+.boxImagine {
+    padding-top: 90px;
+}
+
+.boxImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.listDrop {
+    width: 40%;
+    padding: 70px;
+}
+
+.listDrop *{
+    padding-bottom: 20px;
 }
