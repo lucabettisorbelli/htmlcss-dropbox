@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+}
 .containerHeader {
     height: 80px;
     background-color: aqua;
@@ -21,7 +28,7 @@
 .boxedShort {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(188, 188, 196);
     min-height: 4800px;
 }
 
@@ -64,4 +71,47 @@
     margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#finder h2{
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.radio {
+    padding-top: 30px;
+} 
+
+.radioAll {
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+.subscription {
+    width: 31%;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+
+.boxSubscriptions{
+    justify-content: space-between;
+}
+
+.intro {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.info {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info span {
+    padding: 7px;
+}
+
+.info h4 {
+    padding-bottom: 7px;
 }
