@@ -77,6 +77,9 @@ body {
 .bglightheavenly {
     background-color: #b4d0e7;
 }
+.bgblack {
+    background-color: black;
+}
 
 /* stile pagina */
 
@@ -324,6 +327,7 @@ span i {
 
 .bgFaq {
     padding-top: 90px;
+    padding-bottom: 70px;
 }
 
 .faqsection span i:hover {
@@ -331,14 +335,52 @@ span i {
 }
 
 .faqsection p {
-    opacity: 0;
+    display: none;
     top: 60px;
 }
 
 .faqsection p:hover {
+    display: block;
+}
+
+.faqsection:hover p {
     opacity: 1;
 }
 
-.faqsection strong:hover {
+strong {
+    z-index: 1;
+    height: 100%;
+}
+
+strong:hover {
     opacity: 0;
+}
+
+.listfooter {
+    width: 20%;
+    padding-top: 70px;
+}
+
+.listfooter h4 {
+    color: white;
+    padding: 40px 20px;
+}
+
+.listfooter a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.ItemsBox {
+    padding: 50px 0;
+}
+
+.ItemsBox hr {
+    color: white;
+    width: 20%;
+}
+
+.ItemsBox span {
+    color: white;
 }
