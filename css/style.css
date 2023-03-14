@@ -74,6 +74,9 @@ body {
 .bglightgrey {
     background-color: #f5f5f5;
 }
+.bglightheavenly {
+    background-color: #b4d0e7;
+}
 
 /* stile pagina */
 
@@ -81,6 +84,7 @@ header {
     position:fixed ;
     width: 100%;
     top: 0;
+    z-index: 20;
 }
 .containerHeader {
     height: 80px;
@@ -173,7 +177,6 @@ span i {
 }
 
 .info {
-    flex-direction: column;
     padding: 20px;
 }
 
@@ -293,4 +296,49 @@ span i {
     padding-top: 35px;
 }
 
+.contBoxed {
+    width: 100%;
+    justify-content: space-between;
+}
 
+.boxDropTitle {
+    padding: 90px 0;
+}
+
+.boxDropButton {
+    padding: 90px 0;
+}
+
+.boxDropButton button {
+    padding: 5px 50px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.faqsection {
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bgFaq {
+    padding-top: 90px;
+}
+
+.faqsection span i:hover {
+    transform: rotate(180deg);
+}
+
+.faqsection p {
+    opacity: 0;
+    top: 60px;
+}
+
+.faqsection p:hover {
+    opacity: 1;
+}
+
+.faqsection strong:hover {
+    opacity: 0;
+}
