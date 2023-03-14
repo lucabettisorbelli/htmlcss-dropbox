@@ -66,8 +66,8 @@ header {
 }
 
 .squareBottomRigth img {
-    width: 780px;
-    height: 440px;
+    width: 110%;
+    height: 110%;
 }
 
 .squareBottomRigth {
@@ -76,6 +76,7 @@ header {
 
 .squareBottomLeft {
     margin-bottom: 50px;
+    width: 40%;
     flex-direction: column;
     justify-content: space-around;
 }
