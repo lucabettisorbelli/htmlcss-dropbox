@@ -1,3 +1,5 @@
+/* reset  pagina */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +9,73 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* /* /* /* /* /*classi helper */ 
+
+.boxedLarge {
+    max-width: 1180px;
+    margin: 0 auto;   
+}
+
+.boxedShort {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#bg {
+    background-color: #b4d0e7;
+    margin-top: 70px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bggreen {
+    background-color: #a2d39b;
+}
+.bgbordeux {
+    background-color: #61082b;
+}
+.bglightblue {
+    background-color: #0093ce;
+}
+.bgred {
+    background-color: #ff1c1c;
+}
+.lightred {
+    background-color: #d5001f;
+}
+.bgblue {
+    background-color: #0d2481;
+}
+.bgheavenly {
+    background-color: #b4d0e7;
+}
+.bgyellow {
+    background-color: #ffd830;
+}
+.bglightgrey {
+    background-color: #f5f5f5;
+}
+
+/* stile pagina */
 
 header {
     position:fixed ;
@@ -21,27 +90,6 @@ header {
     padding: 0 15px;
 }
 
-.boxedLarge {
-    max-width: 1180px;
-    margin: 0 auto;
-    
-}
-
-.boxedShort {
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: rgb(188, 188, 196);
-    min-height: 4800px;
-}
-
-.flex {
-    display: flex;
-}
-
-#bg {
-    background-color: #b4d0e7;
-    margin-top: 70px;
-}
 
 .containerHeader a {
     padding: 30px;
@@ -53,14 +101,12 @@ header {
     padding: 10px;
     background-color: #0061ff;
     color: white;
+    border: none;
 }
 
-.width {
-    width: 40%
-}
 
 button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -90,8 +136,11 @@ button:hover {
 .squareBottomLeft {
     margin-bottom: 50px;
     width: 40%;
-    flex-direction: column;
     justify-content: space-around;
+}
+
+span i {
+    font-size: 3em;
 }
 
 #finder h2{
@@ -110,7 +159,6 @@ button:hover {
 
 .subscription {
     width: 31%;
-    background-color: aliceblue;
     border: 1px solid gray;
 }
 
@@ -183,7 +231,6 @@ button:hover {
 .containerCard {
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
 #TitleDrop {
@@ -194,7 +241,6 @@ button:hover {
 .card {
     width: 31%;
     min-height: 460px;
-    background-color: blanchedalmond;
     margin-bottom: 40px;
 }
 
@@ -204,7 +250,6 @@ button:hover {
 }
 
 .containerParagraf {
-    flex-direction: column;
     justify-content: space-around;
     margin-bottom: 20px;
     height: 52%;
@@ -215,4 +260,37 @@ button:hover {
     padding-bottom: 30px;
     width: 50%;
 }
+
+.containerUni {
+    margin-top: 90px;
+}
+
+.size {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.sizeMin {
+    width: 50%;
+    height: 50%;
+}
+
+.sizeMin img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: calc( 50% - 80px );
+    left: calc( 50% - 80px );
+}
+
+.boxUniCenter {
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.boxUniCenter p {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
 
