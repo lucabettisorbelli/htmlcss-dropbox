@@ -10,11 +10,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* /* /* /* /* /*classi helper */ 
+/* /* /* /* /* /*classi helper */
 
 .boxedLarge {
     max-width: 1180px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .boxedShort {
@@ -50,33 +50,43 @@ body {
 .bggreen {
     background-color: #a2d39b;
 }
+
 .bgbordeux {
     background-color: #61082b;
 }
+
 .bglightblue {
     background-color: #0093ce;
 }
+
 .bgred {
     background-color: #ff1c1c;
 }
+
 .lightred {
     background-color: #d5001f;
 }
+
 .bgblue {
     background-color: #0d2481;
 }
+
 .bgheavenly {
     background-color: #b4d0e7;
 }
+
 .bgyellow {
     background-color: #ffd830;
 }
+
 .bglightgrey {
     background-color: #f5f5f5;
 }
+
 .bglightheavenly {
     background-color: #b4d0e7;
 }
+
 .bgblack {
     background-color: black;
 }
@@ -84,11 +94,12 @@ body {
 /* stile pagina */
 
 header {
-    position:fixed ;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 20;
 }
+
 .containerHeader {
     height: 80px;
     background-color: white;
@@ -96,7 +107,6 @@ header {
     align-items: center;
     padding: 0 15px;
 }
-
 
 .containerHeader a {
     padding: 30px;
@@ -111,10 +121,13 @@ header {
     border: none;
 }
 
-
 button:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.ContainerBottom {
+    margin-top: 50px;
 }
 
 .containerTop {
@@ -128,12 +141,12 @@ button:hover {
 }
 
 .squareBottomRigth img {
-    width: 110%;
-    height: 110%;
+    width: 105%;
+    height: 105%;
 }
 
 .squareBottomRigth {
-    width: 60%;
+    width: 65%;
 }
 
 .squareBottomLeft button {
@@ -142,7 +155,7 @@ button:hover {
 
 .squareBottomLeft {
     margin-bottom: 50px;
-    width: 40%;
+    width: 35%;
     justify-content: space-around;
 }
 
@@ -150,14 +163,14 @@ span i {
     font-size: 3em;
 }
 
-#finder h2{
+#finder h2 {
     padding-top: 100px;
     font-size: 40px;
 }
 
 .radio {
     padding-top: 30px;
-} 
+}
 
 .radioAll {
     padding-right: 25px;
@@ -169,7 +182,7 @@ span i {
     border: 1px solid gray;
 }
 
-.boxSubscriptions{
+.boxSubscriptions {
     justify-content: space-between;
 }
 
@@ -230,7 +243,7 @@ span i {
     padding: 70px;
 }
 
-.listDrop *{
+.listDrop * {
     padding-bottom: 20px;
 }
 
@@ -285,8 +298,8 @@ span i {
     width: 50%;
     height: 50%;
     position: absolute;
-    top: calc( 50% - 80px );
-    left: calc( 50% - 80px );
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
 }
 
 .fa-solid {
@@ -296,6 +309,10 @@ span i {
 
 .fa-check {
     color: rgb(62, 62, 218);
+}
+
+.arrow {
+    font-size: 40px;
 }
 
 .boxUniCenter {
