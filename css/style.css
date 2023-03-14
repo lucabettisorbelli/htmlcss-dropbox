@@ -51,8 +51,17 @@ header {
 
 #button {
     padding: 10px;
-    background-color: rgb(85, 85, 165);
+    background-color: #0061ff;
     color: white;
+}
+
+.width {
+    width: 40%
+}
+
+button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .containerTop {
@@ -72,6 +81,10 @@ header {
 
 .squareBottomRigth {
     width: 60%;
+}
+
+.squareBottomLeft button {
+    width: 40%;
 }
 
 .squareBottomLeft {
