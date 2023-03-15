@@ -356,7 +356,7 @@ span i {
     padding-bottom: 70px;
 }
 
-.faqsection span i:hover {
+.faqsection:hover span i {
     transform: rotate(180deg);
 }
 
@@ -365,21 +365,12 @@ span i {
     top: 60px;
 }
 
-.faqsection p:hover {
+.faqsection:hover p{
     display: block;
 }
 
-.faqsection:hover p {
-    opacity: 1;
-}
-
-strong {
-    z-index: 1;
-    height: 100%;
-}
-
-strong:hover {
-    opacity: 0;
+.faqsection:hover strong {
+    display: none;
 }
 
 .listfooter {
